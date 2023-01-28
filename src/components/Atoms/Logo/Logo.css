@@ -1,0 +1,31 @@
+@import url('../../Templates/MainTemplate/MainTemplate.css') customFonts;
+
+.navbar__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+
+    width: fit-content;
+    width: 124px;
+}
+
+.navbar__logo__icon {
+    color: red;
+    background-color: white;
+    width: fit-content;
+    font-size: 30px;
+}
+
+.navbar__logo__text {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.navbar__logo__languageMark {
+    position: absolute;
+    top: -5px;
+    right: 1px;
+    font-size: 12px;
+}

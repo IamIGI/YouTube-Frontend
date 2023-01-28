@@ -1,0 +1,38 @@
+.navbar__rightTopMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.navbar__rightTopMenu__AccountIcon {
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
+.navbar__rightTopMenu__Bell {
+    position: relative;
+}
+
+.navbar__rightTopMenu__Bell__Notification {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    background-color: red;
+    border-radius: 25%;
+    width: fit-content;
+    font-size: 12px;
+    color: white;
+    padding: 0px 3px;
+    margin: 0px;
+    display: inline-block;
+    line-height: 18px;
+}

@@ -5,3 +5,11 @@
     --fontSize_m: 12px;
     --fontSize_s: 8px;
 }
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 100%;
+}

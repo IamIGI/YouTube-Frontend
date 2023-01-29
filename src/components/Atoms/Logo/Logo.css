@@ -1,5 +1,3 @@
-@import url('../../Templates/MainTemplate/MainTemplate.css') customFonts;
-
 .navbar__logo {
     display: flex;
     justify-content: flex-start;

@@ -16,6 +16,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
+    max-width: 360px;
 }
 
 .homeVideoSection__homeVideosTiles__Tiles__Images {
@@ -48,12 +49,13 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 5px;
+    gap: 9px;
     width: 100%;
 }
 
 .homeVideoSection__homeVideosTiles__ChannelImage {
     height: 100%;
+    width: 10%;
     padding-top: 6px;
 }
 
@@ -63,22 +65,30 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2px;
+    width: 89%;
 }
 
-.homeVideoSection__homeVideosTiles__Description__Content {
+.homeVideoSection__homeVideosTiles__Description__Content__Title {
+    height: 40px;
     width: 100%;
-}
 
-.homeVideoSection__homeVideosTiles__Description__Content h5 {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
-    font-size: 15px;
-    line-height: 18px;
-    margin: 0px;
+    align-items: center;
+}
 
-    height: 50px;
+.homeVideoSection__homeVideosTiles__Description__Content__Title h5 {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px;
+    height: 100%;
     width: 100%;
+    display: block;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .homeVideoSection__homeVideosTiles__Description__Content p {
     font-size: 13px;

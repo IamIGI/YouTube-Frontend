@@ -16,7 +16,9 @@ const HomeVideosTiles = () => {
                             <img src={video.authorImg} alt={video.channelName} />{' '}
                         </div>
                         <div className="homeVideoSection__homeVideosTiles__Description__Content">
-                            <h5>{video.title}</h5>
+                            <div className="homeVideoSection__homeVideosTiles__Description__Content__Title">
+                                <h5>{video.title}</h5>
+                            </div>
                             <p>{video.channelName}</p>
                             <p>
                                 {video.views} - {video.date}

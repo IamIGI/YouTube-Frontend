@@ -1,4 +1,3 @@
-import React from 'react';
 import SideBarMenu from '../SideBarMenu/SideBarMenu';
 import SideBarSubscriptionList from '../SideBarSubscriptionList/SideBarSubscriptionList';
 import './SideBar.css';

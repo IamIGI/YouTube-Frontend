@@ -1,0 +1,90 @@
+.homeVideoSection__homeVideosTiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px 15px;
+}
+
+.homeVideoSection__homeVideosTiles__Tiles {
+    flex: 1 0 21%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.homeVideoSection__homeVideosTiles__Tiles__Images {
+    position: relative;
+}
+
+.homeVideoSection__homeVideosTiles__Tiles__Images:hover .absoulteHover {
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    right: 4px;
+    font-size: 12px;
+    padding: 3px 5px;
+    line-height: 14px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    opacity: 0.85;
+    width: fit-content;
+    margin: right;
+}
+
+.homeVideoSection__homeVideosTiles__Tiles__Images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.homeVideoSection__homeVideosTiles__Description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+
+.homeVideoSection__homeVideosTiles__ChannelImage {
+    height: 100%;
+    padding-top: 6px;
+}
+
+.homeVideoSection__homeVideosTiles__Description__Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.homeVideoSection__homeVideosTiles__Description__Content {
+    width: 100%;
+}
+
+.homeVideoSection__homeVideosTiles__Description__Content h5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0px;
+
+    height: 50px;
+    width: 100%;
+}
+.homeVideoSection__homeVideosTiles__Description__Content p {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.absoulteHover {
+    display: none;
+}

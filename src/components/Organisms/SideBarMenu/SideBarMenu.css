@@ -21,6 +21,10 @@
     padding: 0 5px;
 }
 
+.sideBarMenu__tile:hover .sideBarMenu__tile__icon {
+    color: #a52a2a;
+}
+
 .sideBarMenu .sideBar__tile:nth-child(3) {
     --space: 13px;
     padding-bottom: var(--space);
